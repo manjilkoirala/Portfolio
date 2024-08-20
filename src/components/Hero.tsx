@@ -57,6 +57,7 @@ const Hero = () => {
               whileTap={{ scale: 0.9 }}
               transition={{ duration: 0.2, ease: "easeInOut" }}
               href="https://www.linkedin.com/in/manjil-koirala/"
+              target="_blank"
             >
               <FaLinkedin />
             </motion.a>
@@ -65,6 +66,7 @@ const Hero = () => {
               whileTap={{ scale: 0.9 }}
               transition={{ duration: 0.2, ease: "easeInOut" }}
               href="https://github.com/manjilkoirala"
+              target="_blank"
             >
               <FaGithub />
             </motion.a>
@@ -73,6 +75,7 @@ const Hero = () => {
               whileTap={{ scale: 0.9 }}
               transition={{ duration: 0.2, ease: "easeInOut" }}
               href="https://www.youtube.com/@TechLearnHere"
+              target="_blank"
             >
               <FaYoutube />
             </motion.a>
