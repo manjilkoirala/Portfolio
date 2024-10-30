@@ -24,7 +24,7 @@ const Sidebar: React.FC<SidebarProps> = ({ navList }) => {
       },
     },
     closed: {
-      clipPath: "circle(30px at 90% 50px)",
+      clipPath: "circle(0px at 90% 50px)",
       transition: {
         type: "spring",
         stiffness: 400,
@@ -68,7 +68,7 @@ const Sidebar: React.FC<SidebarProps> = ({ navList }) => {
       {!open && (
         <button
           onClick={() => setOpen(true)} // Open button
-          className="fixed top-[25px] right-[48px] w-12 h-12 rounded-full  text-neutral-700 flex items-center justify-center"
+          className="sticky top-[25px] bg-white  w-12 h-12 rounded-full  text-neutral-700 flex items-center justify-center"
         >
           <AiOutlineMenu size={25} />
         </button>
